@@ -1,4 +1,12 @@
-# Guia Prático
+# 📖 Guia Prático
+
+## 📑 Requisitos:
+> O compilador gfortran instalado
+- Download em https://github.com/niXman/mingw-builds-binaries/releases
+  1. Baixar e extrair o aquivo compactado.
+  2. Colocar no disco local.
+  3. Acessar as Variáveis de Ambientes e adicionar um novo PATH - Ex.: `C:\mingw32\bin`.
+  4. Abra o CMD e teste `gfortran --version`.
 
 ## ✅ Passo 1: Instale as extensões no VS Code
 > Procure e instale estas:
@@ -73,7 +81,7 @@ _A flag -g inclui símbolos de debug._
 }
 ```
 
-## ✅ Debug passo a passo
+## 📌 Debug passo a passo
 1. Pressione Ctrl+Shift+D (painel de debug).
 2. Selecione "Debug Fortran".
 3. Pressione **F5** para iniciar.
